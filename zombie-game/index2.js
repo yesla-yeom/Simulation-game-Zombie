@@ -19,7 +19,7 @@ for (; isEnd; ) {
   console.log("3. 조심성 없이 창문으로 뛰어내린다.");
   console.log("=======================");
 
-  let select1 = prompt("1? 2? 3?");
+  let select1 = prompt("1? 2? 3? 22번째줄");
   console.log(select1);
 
   //
@@ -47,11 +47,12 @@ for (; isEnd; ) {
     console.log("2. 운다. 눈물이 멈추지 않는다.");
     console.log("3. 깜짝 놀라며 뒷걸음질 친다.");
     console.log("=======================");
+    //
+    // let select2_a = prompt("1? 2? 3?");
+    // console.log(select2_a);
+    //
   }
-  //
-  let select2_a = prompt("1? 2? 3?");
-  console.log(select2_a);
-  //
+  let select2_a = prompt("1? 2? 3? 55번째줄");
   if (select2_a == 1) {
     console.log(
       "트럭에 탄 한 남자가 이상함을 감지하고 차병장을 총으로 쏴 죽인다."
@@ -65,7 +66,10 @@ for (; isEnd; ) {
     }
     continue;
   }
-
+  //
+  let select2 = prompt("1? 2? 3? 70번째줄");
+  // console.log(select2);
+  //
   if (select1 == 1 || (select1 == 3 && select2_a == 2)) {
     console.log("아직 한낮이다.");
     console.log("갑자기 숨어 있던 꼬마 하나가 차병장에게로 달려온다.");
@@ -76,11 +80,8 @@ for (; isEnd; ) {
     console.log("3. 아이를 안아주며 말을 건다.");
     console.log("=======================");
   }
-  //
-  let select2 = prompt("1? 2? 3?");
-  console.log(select2);
-  //
-  let select2_b = prompt("1? 2? 3?");
+
+  let select2_b = prompt("1? 2? 3? 84번째줄");
   console.log(select2_b);
   if (select2_b === 1) {
     console.log("아이가 넘어지며 사망한다.");
@@ -92,6 +93,7 @@ for (; isEnd; ) {
     }
     continue;
   }
+
   if (select2 == 2) {
     console.log("아이가 깜짝 놀라서 사망한다.");
     let isStart = confirm("다시 시작하려면 '확인'을 클릭하세요.");
@@ -103,6 +105,9 @@ for (; isEnd; ) {
     }
     continue;
   }
+  //
+  let select3 = prompt("1? 2? 3? 109번째줄");
+  //
   if (
     (select1 == 1 && select2 == 3) ||
     (select1 == 3 && select2_a == 2 && select3 == 3) ||
@@ -119,11 +124,12 @@ for (; isEnd; ) {
       "3. 갑자기 아이의 손을 뿌리치고 트럭에서 최대한 멀리 달아난다."
     );
     console.log("=======================");
+    //
+    let select3 = prompt("1? 2? 3? 128번째줄");
+    console.log(select3);
+    //
   }
-  //
-  let select3 = prompt("1? 2? 3?");
-  console.log(select3);
-  //
+
   if (select3 == 1) {
     console.log("냄새에 홀린 좀비들이 몰려와 사망한다.");
     let isStart = confirm("다시 시작하려면 '확인'을 클릭하세요.");
